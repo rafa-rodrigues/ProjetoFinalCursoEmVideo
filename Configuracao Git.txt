@@ -6,3 +6,16 @@ git config --list
 ------------------------------------------------------
 
 projeto ja inicializado no Git
+
+
+comandos: 
+
+git init - iniciar
+
+git status - status
+
+git add . - adicionar
+
+git commit -m "******" - commitar
+
+git push  - enviar
