@@ -1,3 +1,8 @@
 git config --global user.name "rafa-rodrigues"
 git config --global user.email "rodrigues.ok@gmail.com"
 git config --list
+
+
+------------------------------------------------------
+
+projeto ja inicializado no Git
