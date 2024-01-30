@@ -18,4 +18,4 @@ git add . - adicionar
 
 git commit -m "******" - commitar
 
-git push  - enviar
+git push  - enviarstatu

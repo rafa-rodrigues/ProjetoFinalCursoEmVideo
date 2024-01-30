@@ -6,6 +6,7 @@ public class Video implements AcoesVideo{
     private int avaliacao;
     private int views;
     private int curtidas;
+    private boolean reproduzindo;
 
     public Video(String titulo) {
         this.titulo = titulo;
@@ -14,8 +15,6 @@ public class Video implements AcoesVideo{
         this.curtidas=0;
         this.reproduzindo= false;
     }
-
-    private boolean reproduzindo;
 
     @Override
     public void play(){

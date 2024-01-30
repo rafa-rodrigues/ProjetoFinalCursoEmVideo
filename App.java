@@ -8,5 +8,7 @@ public class App {
         video[2] = new Video("Aula 3 de JAVASCRIPT ");
 
         System.out.println(video[0].toString());
+        System.out.println(video[1].toString());
+        System.out.println(video[2].toString());
     }
 }
