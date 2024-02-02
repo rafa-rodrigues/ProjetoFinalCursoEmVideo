@@ -26,4 +26,16 @@ public class Aluno extends Pessoa{
     public void setTotAssistido(int totAssistido) {
         this.totAssistido = totAssistido;
     }
+
+    @Override
+    public String toString() {
+        return "Aluno{"+ super.toString() +
+                "login='" + login + '\'' +
+                ", totAssistido=" + totAssistido +
+                ", nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", sexo='" + sexo + '\'' +
+                ", experiencia=" + experiencia +
+                '}';
+    }
 }

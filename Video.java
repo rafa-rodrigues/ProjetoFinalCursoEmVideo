@@ -18,12 +18,15 @@ public class Video implements AcoesVideo{
 
     @Override
     public void play(){
+        this.reproduzindo = true;
 
     }
     public void pause(){
+        this.reproduzindo = false;
 
     }
     public void like(){
+        this.curtidas ++;
 
     }
 
